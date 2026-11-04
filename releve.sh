@@ -5,5 +5,9 @@ if [ $# -ne 2 ]; then
   exit 1
 fi
 echo "$(date '+%Y-%m-%d %H:%M') ; $1 ; $2 °C" >> releves.txt
+<<<<<<< HEAD
 echo "ok"
 
+=======
+echo "Relevé enregistré pour $1 ($2 °C)"
+>>>>>>> feature/message
